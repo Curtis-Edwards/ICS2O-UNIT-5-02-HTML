@@ -14,7 +14,7 @@
 }
 
  // input
-  const integer = parseInt(document.getElementById('fahrenheit').value)
+  const integer = parseInt(document.getElementById('integer').value)
 
 /**
  * This function gets the number from the text field.
