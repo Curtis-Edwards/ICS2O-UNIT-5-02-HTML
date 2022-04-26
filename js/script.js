@@ -22,7 +22,7 @@
   const integer = parseInt(document.getElementById("integer").value)
 
   // process
-  if (integer <= 0) {
+  if (integer >= 0) {
     document.getElementById("answer").innerHTML =
       "Your number is positive " 
   } else {
