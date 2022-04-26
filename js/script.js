@@ -13,15 +13,16 @@
   })
 }
 
- // input
-  const integer = parseInt(document.getElementById('integer').value)
+ 
 
 /**
  * This function gets the number from the text field.
  */
-
  function buttonClicked () {
  
+// input
+  const integer = parseInt(document.getElementById('integer').value)
+  
   // process
   if (integer <= 0) {
     document.getElementById("answer").innerHTML = "Your number is negitive"
