@@ -22,13 +22,11 @@
   const integer = parseInt(document.getElementById("integer").value)
 
   // process
-let integerValue 
-
   if (integer <= 0) {
-    integerValue = negitive
+    document.getElementById("answer").innerHTML =
+      "Your number is positive " 
   } else {
-    integerValue = positive
+    document.getElementById("answer").innerHTML =
+    "Your number is negative " 
   }
- }
-
- document.getElementById("answer").innerHTML = "Your number is " + "integerValue"
+}
