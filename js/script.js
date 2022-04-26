@@ -8,8 +8,8 @@
  * Check servie worker.
  */
  if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS20-PWA-Template/sw.js", {
-    scope: "/ICS20-PWA-Template/",
+  navigator.serviceWorker.register("/ICS2O-UNIT-5-02-HTML/sw.js", {
+    scope: "/ICS2O-UNIT-5-02-HTML/",
   })
 }
 
@@ -17,3 +17,19 @@
  * This function displays an xxx.
  */
 
+ function calculate () {
+  // input
+  const integer = parseInt(document.getElementById('fahrenheit').value)
+
+  // process
+  if (integer <= 0) {
+    document.getElementById("answer").innerHTML = "Your number is negitive"
+  } else {
+    greeting = "Good evening";
+  }
+
+
+
+  // output
+
+}
