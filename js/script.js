@@ -25,7 +25,7 @@
 let integerValue 
 
   if (integer <= 0) {
-    integerValueL = negitive
+    integerValue = negitive
   } else {
     integerValue = positive
   }
