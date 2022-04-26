@@ -14,10 +14,10 @@
 }
 
 /**
- * This function displays an xxx.
+ * This function gets the number from the text field.
  */
 
- function calculate () {
+ function buttonClicked () {
   // input
   const integer = parseInt(document.getElementById('fahrenheit').value)
 
@@ -25,11 +25,6 @@
   if (integer <= 0) {
     document.getElementById("answer").innerHTML = "Your number is negitive"
   } else {
-    greeting = "Good evening";
+    document.getElementById("answer").innerHTML = "Your number is positive"
   }
-
-
-
-  // output
-
-}
+ }
