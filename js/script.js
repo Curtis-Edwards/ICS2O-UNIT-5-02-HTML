@@ -13,14 +13,15 @@
   })
 }
 
+ // input
+  const integer = parseInt(document.getElementById('fahrenheit').value)
+
 /**
  * This function gets the number from the text field.
  */
 
  function buttonClicked () {
-  // input
-  const integer = parseInt(document.getElementById('fahrenheit').value)
-
+ 
   // process
   if (integer <= 0) {
     document.getElementById("answer").innerHTML = "Your number is negitive"
