@@ -13,20 +13,22 @@
   })
 }
 
- 
-
 /**
  * This function gets the number from the text field.
  */
  function buttonClicked () {
  
 // input
-  const integer = parseInt(document.getElementById('integer').value)
-  
+  const integer = parseInt(document.getElementById("integer").value)
+
   // process
+let integerValue 
+
   if (integer <= 0) {
-    document.getElementById("answer").innerHTML = "Your number is negitive"
+    integerValueL = negitive
   } else {
-    document.getElementById("answer").innerHTML = "Your number is positive"
+    integerValue = positive
   }
  }
+
+ document.getElementById("answer").innerHTML = "Your number is " + "integerValue"
