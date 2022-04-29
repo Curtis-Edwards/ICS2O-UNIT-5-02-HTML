@@ -25,8 +25,10 @@
   if (integer >= 0) {
     document.getElementById("answer").innerHTML =
       "Your number is positive " 
+      console.log(Positive)
   } else {
     document.getElementById("answer").innerHTML =
-    "Your number is negative " 
+    "Your number is negative "
+    console.log(Negative) 
   }
 }
